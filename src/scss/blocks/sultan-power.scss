@@ -1,0 +1,91 @@
+.sultan-power__box {
+  position: relative;
+  width: 30em;
+  min-height: 60.56em;
+  margin: 0 auto;
+  background: url("/img/background-power.jpg") no-repeat;
+}
+.sultan-power__subtitle {
+  position: absolute;
+  top: 2.85em;
+  left: 10em;
+  display: block;
+  font-style: normal;
+  font-weight: normal;
+  font-size: .875em;
+  line-height: 1.2em;
+  text-align: center;
+  width: 14.3em;
+  color: $basic-white;
+}
+.sultan-power__item {
+  position: absolute;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5em;
+  line-height: 1.21em;
+  text-align: center;
+  text-transform: uppercase;
+  color: $other-black;
+}
+.sultan-power__item-ritual {
+  left: 5.2em;
+  top: 12.3em;
+  width: 10em;
+}
+.sultan-power__item-stimul {
+  left: 3.5em;
+  top: 22.3em;
+  width: 13.1em;
+}
+.sultan-power__item-span {
+  font-size: .7em;
+  line-height: .83em;
+}
+.sultan-power__item-fit {
+  left: 3.5em;
+  top: 33.3em;
+  width: 13.1em;
+}
+
+@media (min-width: $desktop-width) {
+  .sultan-power {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .sultan-power__box {
+    position: relative;
+    width: 85.75em;
+    min-height: 26.18em;
+    margin: 0 auto;
+    background: url("/img/background-power-2.jpg") no-repeat;
+  }
+  .sultan-power__subtitle {
+    position: absolute;
+    top: 2.4em;
+    left: 17.89em;
+    min-width: 21.6em;
+    margin: 0;
+    font-size: 24px;
+    line-height: 29px;
+
+    &>br {
+      display: none;
+    }
+  }
+  .sultan-power__item-ritual {
+    left: 4.2em;
+    top: 10.91em;
+    min-width: 13.1em;
+  }
+  .sultan-power__item-stimul {
+    left: 22em;
+    top: 10.91em;
+    width: 13.1em;
+  }
+  .sultan-power__item-fit {
+    left: 39.8em;
+    top: 10.91em;
+    width: 13.1em;
+  }
+}

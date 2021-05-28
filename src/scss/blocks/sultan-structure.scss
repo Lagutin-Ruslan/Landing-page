@@ -1,0 +1,247 @@
+.sultan-structure {
+  width: 100%;
+}
+.sultan-structure__background {
+  display: block;
+  width: 30em;
+  margin: 0 auto;
+  height: 16.9em;
+  background: url("/img/background-bottom.jpg") no-repeat;
+  padding-top: 2.06em;
+}
+.sultan-structure__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: .875;
+  line-height: 1.2em;
+  text-align: center;
+  color: $basic-white;
+  width: 22.8em;
+  margin: 0 auto;
+}
+.sultan-structure__box--wrapper {
+  position: relative;
+  width: 30em;
+  margin: 0 auto;
+}
+.form-order__box--structure-moving {
+  position: relative;
+  left: 6.7em;
+  top: 1.6em;
+}
+.sultan-structure__wrap {
+  width: 30em;
+  margin-top: 2.25em;
+}
+.sultan-structure__img {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  z-index: 1;
+}
+.sultan-structure__box {
+  width: 30em;
+}
+.sultan-structure__subtitle {
+  position: relative;
+  display: block;
+  width: 12.9em;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: .875em;
+  line-height: 1.2em;
+  text-align: center;
+  color: $other-black;
+  margin-top: .42em;
+  margin-bottom: 2.2em;
+  z-index: 1;
+}
+.sultan-structure__list {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("/img/background-pattern.jpg") no-repeat;
+  padding-bottom: 3em;
+}
+.sultan-structure__item {
+  position: relative;
+  width: 20em;
+  height: 15.75em;
+  background: $basic-white;
+  box-shadow: 0em .25em 5em $other-lighted-dark;
+  border-radius: 1.25em;
+  margin-bottom: 1.19em;
+  padding: 1.63em 2.3em 1.875em 2.18em;
+}
+.sultan-structure__img-pattern {
+  position: absolute;
+  top: 35.3em;
+}
+.sultan-structure__headline {
+  margin: 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.125em;
+  line-height: 1.2em;
+  text-transform: uppercase;
+  color: $another-lighted-red;
+}
+.sultan-structure--ginseng {
+  width: 10.5em;
+}
+.sultan-structure--raw {
+  width: 8.5em;
+}
+.sultan-structure--evricoma {
+  width: 10.5em;
+}
+.sultan-structure--asai {
+  width: 5em;
+  margin-bottom: 2em;
+}
+.sultan-structure__text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.87em;
+  line-height: 1.2em;
+  color: $another-black;
+}
+.sultan-structure__img-ginseng {
+  position: absolute;
+  right: -1.06em;
+  top: -2.87em;
+}
+.sultan-structure__img-raw {
+  position: absolute;
+  right: -1.8em;
+  top: -4.1em;
+  transform: rotate(1.42deg);
+}
+.sultan-structure__img-evricoma {
+  position: absolute;
+  right: -.5em;
+  top: -2.5em;
+  transform: rotate(-15deg);
+}
+.sultan-structure__img-asai {
+  position: absolute;
+  right: -1.18em;
+  top: -4.1em;
+}
+
+@media (min-width: $desktop-width) {
+  .sultan-structure__background {
+    width: 90em;
+    margin: 0 auto;
+    height: 40.25em;
+    background: url("/img/background-bottom-2.jpg") no-repeat;
+    padding-top: 4.6em;
+  }
+  .sultan-structure__title {
+    width: 18em;
+    margin: 0;
+    margin-left: 5.6em;
+    font-size: 1.5em;
+    line-height: 1.2em;
+  }
+  .sultan-structure__box--wrapper {
+    width: 90em;
+    margin: 0 auto;
+  }
+  .form-order__box--structure-moving {
+    position: absolute;
+    left: 49.3em;
+    top: -37em;
+  }
+  .sultan-structure__wrap {
+    position: absolute;
+    width: 10.875em;
+    height: 6.875em;
+    margin: 0;
+    top: -1.56em;
+    left: 11.125em;
+  }
+  .sultan-structure__img {
+    width: 10.875em;
+    height: 6.875em;
+  }
+  .sultan-structure__box {
+    width: 90em;
+  }
+  .sultan-structure__subtitle {
+    width: 22.6em;
+    margin-top: 0;
+    margin-bottom: 2.54em;
+    font-size: 1.5em;
+    line-height: 1.2em;
+  }
+  .sultan-structure__list {
+    margin: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: url("/img/background-pattern-2.jpg") no-repeat;
+    padding-bottom: 4.3em;
+    gap: 1.19em;
+  }
+  .sultan-structure__item {
+    width: 39.4em;
+    height: 14.1em;
+    margin-bottom: 0;
+    padding: 2em 0em 1.875em 3.375em;
+  }
+  .sultan-structure__img-pattern {
+   display: none;
+  }
+  .sultan-structure__headline {
+    font-size: 1.875em;
+    line-height: 1.23em;
+  }
+  .sultan-structure--ginseng {
+    width: 21.3em;
+  }
+  .sultan-structure--raw {
+    width: 12.3em;
+  }
+  .sultan-structure--evricoma {
+    width: 21.3em;
+  }
+  .sultan-structure--asai {
+    width: 6.5em;
+    margin-bottom: 0;
+  }
+  .sultan-structure__text {
+    font-size: 1.125em;
+    line-height: 1.2em;
+    width: 29.88em;
+  }
+  .sultan-structure__img-ginseng {
+    right: -2.5em;
+    top: -4.5em;
+    width: 17.25em;
+    height: 13.4em;
+  }
+  .sultan-structure__img-raw {
+    right: -4.8em;
+    top: -10.6em;
+    transform: rotate(0deg);
+    width: 26.06em;
+    height: 26.43em;
+  }
+  .sultan-structure__img-evricoma {
+    right: -4.9em;
+    top: -7.1em;
+    transform: rotate(5deg);
+    width: 22.5em;
+    height: 23.5em;
+  }
+  .sultan-structure__img-asai {
+    position: absolute;
+    right: -1.6em;
+    top: -7.2em;
+    width: 15.375em;
+    height: 17.56em;
+  }
+}

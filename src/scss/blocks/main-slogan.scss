@@ -1,0 +1,137 @@
+.main {
+  width: 100%;
+  margin-top: 1.125em;
+}
+.main-slogan__wrap {
+  position: relative;
+  width: 30em;
+  height: 33.1em;
+  display: block;
+  background: url("/img/slogan-background.jpg") no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+  padding-top: 1.3em;
+  padding-left: 5em;
+}
+.main-slogan__text {
+  margin: 0;
+  font-weight: 900;
+  font-size: 1.5em;
+  line-height: 1.8em;
+  color: $basic-white;
+  width: 14em;
+}
+.slogan-word__color {
+  color: $other-yellow;
+}
+.main__slogan-img {
+  position: absolute;
+  top: 11.8em;
+  left: 7.7em;
+}
+.main-slogan__content {
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: .75em;
+  line-height: 1em;
+  color: $basic-white;
+  width: 26.6em;
+}
+.main-slogan__content-desktop {
+  display: none;
+}
+.main__slogan-list {
+  position: relative;
+}
+.main-slogan__item {
+  position: absolute;
+  font-style: normal;
+  font-weight: 600;
+  font-size: .8em;
+  line-height: 1em;
+  color: $basic-white;
+}
+.first {
+  top: 1.9em;
+  left: 1.5em;
+  width: 9em;
+}
+.second {
+  top: 6em;
+  left: .6em;
+  width: 5.25em;
+}
+.third {
+  top: 9.6em;
+  width: 4em;
+}
+.fourth {
+  top: 13.3em;
+  left: .6em;
+  width: 6.4em;
+}
+
+@media (min-width: $desktop-width) {
+  .main-slogan {
+    width: 90em;
+    margin: 0 auto;
+  }
+  .main-slogan__wrap {
+    position: relative;
+    width: 90em;
+    height: 63.5em;
+    background: url("/img/slogan-background-2.jpg") no-repeat;
+    padding-left: 5.5em;
+  }
+  .main-slogan__text {
+    font-weight: bold;
+    font-size: 4em;
+    line-height: 1.22em;
+    width: 15.78em;
+  }
+  .main__slogan-img {
+    display: none;
+  }
+  .main-slogan__content {
+    display: none;
+  }
+  .main-slogan__content-desktop {
+    display: block;
+    margin: 0;
+    margin-top: .72em;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.25em;
+    line-height: 1.22em;
+    color: $basic-white;
+    width: 15.3em;
+  }
+  .main-slogan__item {
+    position: absolute;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 1.208em;
+  }
+  .first {
+    top: 12.87em;
+    left: 0;
+    width: 11.45em;
+  }
+  .second {
+    top: 9.2em;
+    left: 6.125em;
+    width: 7.375em;
+  }
+  .third {
+    top: 18.7em;
+    left: 6.83em;
+    width: 5.58em;
+  }
+  .fourth {
+    top: 4.625em;
+    left: 10.3em;
+    width: 8.5em;
+  }
+}

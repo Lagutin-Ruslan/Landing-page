@@ -1,0 +1,62 @@
+.aside-sultan {
+  width: 100%;
+}
+.aside-sultan__subtitle {
+  margin: 1.95em auto;
+  width: 18.2em;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.125em;
+  line-height: 1.2em;
+  text-align: center;
+  color: $other-black;
+}
+.aside-sultan__img {
+  width: 30em;
+  height: 22.75em;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1.375em;
+}
+.aside-sultan__content {
+  width: 22.8em;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: .875em;
+  line-height: 1.2em;
+  color: $other-black;
+  margin-bottom: 2.6em;
+}
+
+@media (min-width: $desktop-width) {
+  .aside-sultan {
+    margin-bottom: 2.43em;
+  }
+  .aside-sultan__subtitle {
+    min-width: 22.4em;
+    margin-top: 1.11em;
+    margin-bottom: 1.112em;
+    font-size: 2.25em;
+    line-height: 1.22em;
+  }
+  .aside-sultan--moving {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 90em;
+    margin: 0 auto;
+  }
+  .aside-sultan__img {
+    width: 46.18em;
+    height: 22.75em;
+    margin-bottom: 0;
+  }
+  .aside-sultan__content {
+    width: 23.9em;
+    margin: 0;
+    font-size: 24px;
+    line-height: 1.2em;
+    margin-top: 1.8em;
+    margin-right: 1.9em;
+  }
+}

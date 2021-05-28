@@ -1,0 +1,52 @@
+.sultan-advantage {
+  width: 100%;
+  margin-top: 2.25em;
+  background-color: $other-yellow;
+  padding-bottom: 1.7em;
+}
+.sultan-advantage__img {
+  display: block;
+  margin: 0 auto;
+  width: 30em;
+  height: 22.75em;
+}
+.sultan-advantage__content {
+  font-style: normal;
+  font-weight: normal;
+  font-size: .875em;
+  line-height: 1.2em;
+  color: $other-black;
+  width: 22.85em;
+  margin: 0 auto;
+  margin-top: 1.57em;
+}
+
+@media (min-width: $desktop-width) {
+  .sultan-advantage {
+    width: 100%;
+    background: none;
+    padding-bottom: 0;
+  }
+  .sultan-advantage--moving {
+    width: 90em;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: $other-yellow;
+  }
+  .sultan-advantage__img {
+    display: block;
+    margin: 0 auto;
+    width: 45.5em;
+    height: 22.75em;
+  }
+  .sultan-advantage__content {
+    min-width: 23.9em;
+    margin: 0;
+    margin-top: 2.75em;
+    margin-right: 2.3em;
+    font-size: 1.5em;
+    line-height: 1.2em;
+    color: $another-dark;
+  }
+}
